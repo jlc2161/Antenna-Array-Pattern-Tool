@@ -1,0 +1,60 @@
+# --- Python bytecode / caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# --- Virtual environments (Windows & POSIX names) ---
+.venv/
+venv/
+env/
+ENV/
+.Python
+pyvenv.cfg
+# If the venv lives inside the project (as in your screenshot)
+Lib/
+Scripts/
+Include/
+etc/
+
+# --- Build/distribution artifacts ---
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# --- Test/typing/coverage caches ---
+.pytest_cache/
+.coverage*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pytype/
+.pyre/
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Streamlit ---
+.streamlit/secrets.toml     # keep secrets out of git
+.streamlit/logs/
+.streamlit/*.lock
+# If you don't want to share your local theme/config, uncomment:
+# .streamlit/config.toml
+
+# --- Project data/output (adjust as you like) ---
+share/*                      # ignore large local outputs
+!share/.gitkeep              # but keep the folder if you add a placeholder
+*.log
+*.tmp
+*.bak
