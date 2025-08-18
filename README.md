@@ -2,7 +2,6 @@
 
 Interactive Streamlit app to explore antenna patterns from an **element pattern** multiplied by a **linear array factor** (ideal model, no coupling/parasitics).
 
----
 
 ## Quick Start
 
@@ -78,15 +77,14 @@ Open the browser link (usually `http://localhost:8501`).
 
 ---
 
-## Screenshots (placeholders)
+## Screenshots
 
-- **2D Elevation Cut (θ-polar)**  
-  _Paste image here_
+- **2D Elevation Cut (θ-polar)**
+![2D Dipole Pattern](screenshots/2D_Dipole.png)
 
-- **3D Pattern**  
-  _Paste image here_
+- **3D Pattern**
+![3D Dipole Pattern](screenshots/3D_Dipole.png)
 
----
 
 ## Folder Hints
 
