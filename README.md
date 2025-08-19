@@ -5,18 +5,22 @@ Interactive Streamlit app to explore antenna patterns from an **element pattern*
 
 ## Quick Start
 
-```bash
-# 1) Clone & enter
+# Clone repository
 git clone https://github.com/your-username/antenna-array-analysis.git
-cd antenna-array-analysis
+cd antenna-array-pattern-tool
 
-# 2) Install (Python 3.9+)
+# Create virtual environment
+python -m venv .venv
+source .venv/Scripts/activate   # Windows
+# or
+source .venv/bin/activate       # macOS/Linux
+
+# Install dependencies
 pip install -r requirements.txt
-# if you don't have a file yet, minimal set:
-# pip install streamlit numpy matplotlib plotly pandas
 
-# 3) Run
-streamlit run app.py
+# Run Application
+streamlit run array_pattern_tool.py
+
 ```
 
 Open the browser link (usually `http://localhost:8501`).
@@ -80,20 +84,11 @@ Open the browser link (usually `http://localhost:8501`).
 ## Screenshots
 
 - **2D Elevation Cut (θ-polar)**
-![2D Dipole Pattern](Screenshots/2D_Dipole.png)
+![2D Dipole Pattern](screenshots/2D_Dipole.png)
 
 - **3D Pattern**
-![3D Dipole Pattern](Screenshots/3D_Dipole.png)
+![3D Dipole Pattern](screenshots/3D_Dipole.png)
 
-
-## Folder Hints
-
-```
-app.py                # Streamlit app (this code)
-requirements.txt      # numpy, matplotlib, plotly, streamlit, pandas
-README.md             # this file
-screenshots/          # add your PNGs here
-```
 
 ---
 
