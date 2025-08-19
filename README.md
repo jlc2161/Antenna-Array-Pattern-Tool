@@ -1,16 +1,21 @@
 # Antenna Array Analysis (Element × Array Factor)
 
-Interactive Streamlit app to explore antenna patterns from an **element pattern** multiplied by a **linear array factor** (ideal model, no coupling/parasitics).
+Interactive Streamlit app to explore antenna patterns from an **element pattern** multiplied by a **linear array factor**  
+(ideal model, no coupling/parasitics).
 
+---
 
 ## Quick Start
 
-# Clone repository
+### Clone repository
+```bash
 git clone https://github.com/your-username/antenna-array-analysis.git
+
 cd antenna-array-pattern-tool
 
 # Create virtual environment
 python -m venv .venv
+
 source .venv/Scripts/activate   # Windows
 # or
 source .venv/bin/activate       # macOS/Linux
