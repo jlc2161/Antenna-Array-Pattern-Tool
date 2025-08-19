@@ -9,7 +9,7 @@ Interactive Streamlit app to explore antenna patterns from an **element pattern*
 
 ### Clone repository
 ```bash
-git clone https://github.com/your-username/antenna-array-analysis.git
+git clone https://github.com/jlc2161/Antenna-Array-Pattern-Tool
 
 cd antenna-array-pattern-tool
 
@@ -89,11 +89,11 @@ Open the browser link (usually `http://localhost:8501`).
 ## Screenshots
 
 - **2D Elevation Cut (θ-polar)**
-![2D Dipole Pattern](screenshots/2D_Dipole.png)
+![2D Dipole Pattern](screenshots/2D%20Dipole.png)
+
 
 - **3D Pattern**
-![3D Dipole Pattern](screenshots/3D_Dipole.png)
-
+![3D Dipole Pattern](screenshots/3D%20Dipole.png)
 
 ---
 
